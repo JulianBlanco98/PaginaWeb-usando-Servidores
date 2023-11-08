@@ -1,0 +1,80 @@
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf8" />
+	<title>Registro usuario</title>
+	<link rel="stylesheet" type="text/css" href="css/registro.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+	<div id="Header">
+		<img src="img/Registro/registro.png" class="tit"></img>
+		<a href="Login.jsp"><img src="img/atras.png" class="back"></a>
+
+	</div>
+
+	<div id="contenedor">
+
+		
+
+		<div id="content">
+
+			<form action="UsuarioController" method="post">
+
+				<label><i class="fas fa-user"></i>Nombre: </label>
+				<input type="text" name="nombre">
+				<br>
+				<label><i class="fas fa-users-cog"></i>Primer y Segundo Apellido: </label> 
+				<input type="text" name="apellidos" /> 
+				<br>
+				<label><i class="fas fa-envelope"></i>E-mail:</label>
+				<input type="email" name="email" /> 
+				<br>
+				<label><i class="fas fa-gamepad"></i>Nombre de Usuario:</label>
+				<input type="text" name="username"/>
+				<br>
+				<label><i class="fas fa-lock"></i>Contraseña: </label>
+				<input type="password" name="password" /> 
+				<br>
+				<label><i class="fas fa-lock"></i>Verificar Contraseña: </label>
+				<input type="password" name="password2" /> 
+				<input type="submit" value="Enviar" /> <input type="reset" value="Borrar" />
+				<input type="hidden" name="action" value="UsuarioAlta" />
+
+
+
+			</form>
+		</div>
+
+
+	</div>
+	<footer>
+	<div class="waves">
+		<div class="wave" id="wave1"></div>
+		<div class="wave" id="wave2"></div>
+		<div class="wave" id="wave3"></div>
+		<div class="wave" id="wave4"></div>
+	</div>
+	<ul class="redes_sociales">
+		<li><a href="https://es-es.facebook.com/"><ion-icon
+					name="logo-facebook"></ion-icon></a></li>
+		<li><a href="https://twitter.com/home?lang=es"><ion-icon
+					name="logo-twitter"></ion-icon></a></li>
+		<li><a href="https://www.instagram.com/"><ion-icon
+					name="logo-instagram"></ion-icon></a></li>
+		<li><a href="https://www.youtube.com/"><ion-icon
+					name="logo-youtube"></ion-icon></a></li>
+	</ul>
+	<p>2023 | Todos los derechos reservados</p>
+</footer>
+<script type="module"
+	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule
+	src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>

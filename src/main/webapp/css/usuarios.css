@@ -1,0 +1,141 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fondo_principal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.tit {
+    max-width: 1800px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.back {
+
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#tabla {
+    display: block;
+    width: 100%;
+    max-width: 1800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    margin-top: 100px;
+
+}
+
+table {
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 8px;
+    box-shadow: 0 6px 13px 8px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+td:first-child {
+	
+	width: 30%;
+	
+	
+}
+
+td {
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.3);
+    width: 14%;
+}
+
+thead {
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+/*tr:hover td{
+	background-color: #369681;
+	color: white;
+}*/
+
+table img {
+
+    width: 90%;
+    height: 15em;
+}
+.green {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #57cc99;
+}
+.green:hover {
+  background-color: #80ed99;
+}
+.green:active {
+  top: 2px;
+}
+
+.red{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+  background: #d90429;
+}
+.red:hover {
+  background-color: #ef233c;
+}
+.red:active {
+  top: 2px;
+}
