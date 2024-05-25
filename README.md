@@ -72,11 +72,11 @@ Vistas dinámicas de la aplicación la cual gracias al controller, recibo en la 
 ### Admin Crear Usuario (privada)
 ![screenshot](Capturas/AdminCrearUsuario.png)
 
-### Admin Modificar Usuario (privada)
-![screenshot](Capturas/AdminModificarUsuario.png)
-
 ### Admin Ver Usuarios (privada)
 ![screenshot](Capturas/AdminVerUsuarios.png)
+
+### Admin Modificar Usuario (privada)
+![screenshot](Capturas/AdminModificarUsuario.png)
 
 ### Admin Añadir Ruta (privada)
 ![screenshot](Capturas/AdminAñadirRuta.png)
